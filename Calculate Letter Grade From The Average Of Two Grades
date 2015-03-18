@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float grade1;
+    float grade2;
+
+    printf("Enter your two grades! \n");
+    scanf(" %f", &grade1);
+    scanf(" %f", &grade2);
+
+    float avg = (grade1 + grade2) / 2;
+
+    printf("Average: %.2f \n", avg);
+
+    if(avg >= 93){
+        printf("Grade: A \n");
+    }else if(avg >= 85){
+        printf("Grade: B \n");
+    }else if(avg >= 75){
+        printf("Grade: C \n");
+    }else if(avg >= 70){
+        printf("Grade: D \n");
+    }else(avg <= 69);{
+        printf("There's no hope for you lmao \n");
+    }
+
+    return 0;
+}
