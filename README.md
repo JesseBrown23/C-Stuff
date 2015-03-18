@@ -1,1 +1,1 @@
-My name is Jesse and this is my first repository.
+Where I'm storing my programs I make in C
